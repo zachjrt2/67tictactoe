@@ -515,7 +515,7 @@
                 if (result.winner === 'draw') {
                     status.textContent = "OH NO!!! MY CABBAGES!!! 😭";
                     playSadSound();
-                    speakText("Oh no! My cabbages!");
+                    speakText("Oh no! My six or seven cabbages!");
                     bananaGuy.classList.add('show');
                 } else {
                     status.textContent = `Player ${result.winner} Wins! 🎉`;
@@ -524,7 +524,7 @@
                     });
                     playExplosionSound();
                     createFireworks();
-                    speakText("Bro you got like six seven points");
+                    speakText("Oh please speed! I need this!");
                 }
             } else {
                 currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
